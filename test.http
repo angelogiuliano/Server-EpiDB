@@ -1,0 +1,16 @@
+GET http://localhost:3030/getUsers
+
+####
+
+POST http://localhost:3030/createUser
+Content-Type: "application/json"
+
+{
+    "firstName": "Angelo",
+    "lastName": "Giuliano",
+    "email": "pio@pio.pio",
+    "password": "pippo1234",
+    "age": 21,
+}
+
+####
